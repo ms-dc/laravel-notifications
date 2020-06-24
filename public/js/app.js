@@ -47715,6 +47715,7 @@ var render = function() {
       _c(
         "span",
         {
+          attrs: { title: "Marcar como lida" },
           on: {
             click: function($event) {
               $event.preventDefault()
@@ -47722,7 +47723,7 @@ var render = function() {
             }
           }
         },
-        [_vm._v("Lida")]
+        [_vm._v("✔")]
       ),
       _vm._v(
         "\n\n        " +

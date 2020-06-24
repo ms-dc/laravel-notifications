@@ -1,7 +1,7 @@
 <template>
     <div>
         <a class="dropdown-item" href="#">
-            <span @click.prevent="markAsRead(notification.id)">Lida</span>
+            <span title="Marcar como lida" @click.prevent="markAsRead(notification.id)">&#10004;</span>
 
             {{comment.user.name}} comentou {{ comment.title }}
         </a>
